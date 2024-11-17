@@ -106,6 +106,7 @@ private:
 		
 		N->parent = P;
 		if (P == NULL) { 
+			N->color = BLACK;
 			root = N;
 			return;
 		}
@@ -146,7 +147,7 @@ private:
 		return;
 	}
 
-	// Removal of a blak non-root leaf; N has no children
+	// Removal of a black non-root leaf; N has no children
 	void delete_leaf(Node* N) {
 		Node* P = N->parent;
 		int dir = childDir(N);
@@ -169,12 +170,13 @@ private:
 				S->color = BLACK;
 				S = C;
 				D = S->child[1-dir];
+				C = S->child[dir];
 			}
 			
 			// S is black
 			if ((D != NULL && D->color == RED) || (C != NULL && C->color == RED)) {
 				// at least one nephew is red.
-				if (C != NULL && C->color == RED) {
+				if (D == NULL || D->color == BLACK) {
 					rotate(S, 1-dir);
 					S->color = RED;
 					C->color = BLACK;
@@ -234,8 +236,12 @@ private:
 			if (node->parent == NULL) {
 				root = NULL;
 				free(node);
-			} else 
-				delete_leaf(node);
+			} else {
+				if (node->color == RED)
+					return;
+				else
+					delete_leaf(node);
+			}
 		}
 	}
 	
