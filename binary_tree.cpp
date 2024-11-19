@@ -114,13 +114,13 @@ private:
 			
 			if (!stk.empty()) {
 				node = stk.top();
-				
+				// 如果节点右孩子不为空并且右孩子没有被遍历过则将该节点入栈
 				if (node->right && node->right != pre) {
 					node = node->right;
 					stk.push(node);
 					node = node->left;
 				} else {
-					node = stk.top();
+					// 如果节点右孩子为空或者被遍历过，则需要将该元素出栈
 					stk.pop();
 					visit(node);
 					pre = node;
