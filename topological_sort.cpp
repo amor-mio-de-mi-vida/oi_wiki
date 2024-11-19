@@ -55,6 +55,7 @@ struct TopoSort {
 	status(n, Status::to_visit),
 	order(n),
 	it(order.rbegin()) {}
+	// 需要反向输出的时候可以用反向迭代器
 	
 	bool sort() {
 		for (int i = 0; i < n; i++) {
