@@ -9,7 +9,7 @@
 
 ## 分类
 
-![[Pasted image 20241119141514.png]]
+![Pasted-image-20241119141514](https://github.com/amor-mio-de-mi-vida/picx-images-hosting/raw/master/其他/Pasted-image-20241119141514.4xukj1c2hv.webp)
 
 ### 序列式容器
 

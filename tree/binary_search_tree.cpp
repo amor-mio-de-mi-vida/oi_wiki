@@ -125,7 +125,9 @@ public:
 	int queryRank(TreeNode* root, int v) {
 		if (root == nullptr) return 0;
 		if (root->key == v) return (root->left? root->left->count : 0);
-		if (root->key > v) return root->count + (root->left? root->left->count : 0) + queryRank(root->right, v);
+		if (root->key > v) return queryRank(root->left);
+		return queryRank(root->right, v) + (root->left ? root->left->size : 0) +
+		root->count;
 	}
 	
 	int querykth(TreeNode* root, int k) {
