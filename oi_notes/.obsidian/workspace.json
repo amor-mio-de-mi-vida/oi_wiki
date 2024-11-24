@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "96eeb6e2c5a05baf",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbc84bb468162a40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f36c5d6bba1c095",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d8585a70001e9d8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e897c593c918644",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5789782fdc77ac71",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "f9d9b907f4ea4e0c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cfd17be3899d8fa4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "dae2c308ca4db6d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c4eb7fa7d2d4bdf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b0199878876b892",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "c++标准库.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for c++标准库"
+            }
+          },
+          {
+            "id": "f39b4275dadaad64",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "c++标准库.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from c++标准库"
+            }
+          },
+          {
+            "id": "c32d36313afe5f21",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e3c7c9a1485988a4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "c++标准库.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of c++标准库"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "7f36c5d6bba1c095",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "SVM.md",
+    "排序算法总结.md",
+    "assets/Pasted image 20241119141514.png",
+    "c++标准库.md",
+    "assets/download.gif",
+    "assets/Pasted image 20241119214744.png",
+    "assets"
+  ]
+}
